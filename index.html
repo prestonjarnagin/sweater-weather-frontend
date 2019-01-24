@@ -2,15 +2,22 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Quantified Self - Diary</title>
+  <title>Sweather Weather</title>
 </head>
 <body>
-      <!--  the a tag below can link you to another HTML page  -->
-      <!--  if you click the button in the browser right now, you'll get an error because that is not a real file path -->
-      <a href="<file path"><button class="default-button">GO TO OTHER PAGE</button></a>
-    <script
+  <div id="weather-query">
+      Enter a Location: <input type="text" name="weather-location" id="weather-location-query"><br>
+      <button type="button" id="get-weather-button">Get the Weather!</button>
+  </div>
+
+  <section id="current-weather-container" class="container">
+  </section>
+
+  <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
-  <script src="main.bundle.js"></script>
+
+  <!-- <script src="main.bundle.js"></script> -->
+  <script src="lib/index.js"></script>
 </body>
 </html>
