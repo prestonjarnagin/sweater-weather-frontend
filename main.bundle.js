@@ -44,8 +44,20 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-	// This file is in the entry point in your webpack config.
 	"use strict";
+
+	// This file is in the entry point in your webpack config.
+	// process.env.api_url = "http://localhost:3000";
+
+
+	// currentWeatherContainer = document.getElementById('current-weather-container');
+	$(document).ready(function () {
+	  console.log("ready!");
+	});
+
+	function populateCurrentWeather() {
+	  alert("Hello");
+	}
 
 /***/ })
 /******/ ]);
