@@ -1,0 +1,20 @@
+
+/* $white: #FFFFFF;
+$light-blue: #319BF5;
+$dark-blue: #006494;
+$onyx: #262626;
+$vermilion: #DC493A; */
+
+header {
+  font-size: 30px;
+  background-color: #262626;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+
+#current-weather-container{
+  background-color: black;
+}
