@@ -22,6 +22,12 @@ main{
   grid-row-gap: 10px;
   grid-column-gap: 10px;
 }
+
+main > *{
+  border-left: 4px solid #DC493A;
+  background-color: #319BF5;
+}
+
 #weather-query{
   grid-column: 1/3;
   grid-row: 1/1;
