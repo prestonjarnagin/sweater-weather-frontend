@@ -29,6 +29,19 @@ header{
   margin: 0px;
 }
 
+.btn-primary{
+  background-color: #319BF5;
+}
+
+.login-formfield{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-body{
+  padding: 0px 16px 0px 16px;
+}
+
 main{
   padding: 3px;
   display: grid;
