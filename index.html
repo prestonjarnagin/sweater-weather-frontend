@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="lib/reset.css">
   <link rel="stylesheet" type="text/css" href="lib/styles.css">
   <title>Sweather Weather</title>
 </head>
@@ -9,24 +10,33 @@
   <header>
     Sweather Weather
   </header>
-  <div id="weather-query">
-      Enter a Location: <input type="text" name="weather-location" id="weather-location-query"><br>
-      <button type="button" id="get-weather-button">Get the Weather!</button>
-  </div>
+  <main>
+    <div id="weather-query">
+        Enter a Location: <br>
+        <input type="text" name="weather-location" id="weather-location-query">
+        <br>
+        <br>
+        <button type="button" id="get-weather-button">Get the Weather!</button>
+    </div>
 
-  <div id="current-weather-container" class="container">
-  </div>
+    <div id="current-weather-container" class="container">
+      Current Weather
+    </div>
 
-  <div id="current-weather-detail-container" class="container">
-  </div>
+    <div id="current-weather-detail-container" class="container">
+      Current Weather Detail
+    </div>
 
-  <div id="hourly-weather-container">
-    HOURLY
-  </div>
+    <section id="forecast">
+      <div id="hourly-weather-container">
+        Hourly Weather
+      </div>
 
-  <div id="daily-weather-container">
-    DAILY
-  </div>
+      <div id="daily-weather-container">
+        Daily Weather
+      </div>
+    <section>
+  </main>
 
 
 
