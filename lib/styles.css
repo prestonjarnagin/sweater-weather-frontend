@@ -5,7 +5,21 @@ $dark-blue: #006494;
 $onyx: #262626;
 $vermilion: #DC493A; */
 
-header {
+*{
+  font-family: sans-serif;
+}
+
+h3{
+  font-size: 20pt;
+  color: #DC493A;
+}
+
+h4{
+  font-size: 18px;
+  color: #006494;
+}
+
+header{
   font-size: 30px;
   background-color: #262626;
   color: #FFFFFF;
@@ -16,16 +30,12 @@ header {
 }
 
 main{
+  padding: 3px;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 80px auto auto;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
-}
-
-main > *{
-  border-left: 4px solid #DC493A;
-  background-color: #319BF5;
 }
 
 #weather-query{
@@ -47,4 +57,18 @@ main > *{
 #forecast{
   grid-column: 1/3;
   grid-row: 3/3;
+}
+
+#hourly-weather-container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: space-between;
+}
+
+.hour-container{
+  align-self: center;
+  padding: 5px;
 }
