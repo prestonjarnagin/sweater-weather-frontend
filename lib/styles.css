@@ -56,6 +56,18 @@ nav{
   padding: 0px 16px 0px 16px;
 }
 
+.dropdown-item{
+  padding: .6rem 1.5rem;
+}
+
+#new-city-form-entry{
+  margin-top: .8rem;
+}
+
+#favorites-dropdown{
+  margin-right: 10px;
+}
+
 main{
   padding: 3px;
   display: grid;
