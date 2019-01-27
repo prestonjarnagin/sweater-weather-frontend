@@ -27,6 +27,16 @@ header{
   text-align: center;
   padding: 20px;
   margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  }
+
+#sweather{
+  align-self: flex-start;
+}
+
+nav{
+  display: flex
 }
 
 .btn-primary{
