@@ -119,6 +119,10 @@ main{
   grid-row: 3/3;
 }
 
+.delete-city-btn{
+  float: right;
+}
+
 .hour-container{
   align-self: center;
   padding: 5px;
