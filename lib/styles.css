@@ -85,6 +85,10 @@ nav{
   margin-right: 10px;
 }
 
+#open-signup-btn{
+  margin-right: 10px;
+}
+
 main{
   padding: 3px;
   display: grid;
