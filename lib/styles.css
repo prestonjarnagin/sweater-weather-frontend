@@ -43,6 +43,23 @@ nav{
   display: flex
 }
 
+#daily-weather-container{
+}
+
+#daily-weather-container > div{
+
+}
+
+#hourly-weather-container{
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hour-container{
+  font-size: 12px;
+}
+
 .btn-primary{
   background-color: #319BF5;
 }
@@ -96,15 +113,6 @@ main{
 #forecast{
   grid-column: 1/3;
   grid-row: 3/3;
-}
-
-#hourly-weather-container{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: space-between;
 }
 
 .hour-container{
